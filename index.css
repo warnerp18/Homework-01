@@ -1,0 +1,40 @@
+.header {
+    background-color: purple;
+	background-image: url(http://media.giphy.com/media/bt8xVVMwNFkPe/giphy.gif);
+	height: 350px;
+    background-size: cover;
+    background-position: 0px 50%;
+}
+
+.left {
+	display:inline-block;
+	width: 20%;
+	color: white;
+	font-weight:bold;
+	background-color: #5cadff;
+	min-height: 500px;
+	vertical-align: top
+	text-align: left;
+
+}
+
+.right{
+	display: inline-block;
+	width:79%;
+	background-color: #29A329;
+	color:#FF5050;	
+	font-weight:bold;
+	vertical-align: top;
+	min-height: 500px;
+	text-align: center;
+}
+
+// I'm not sure what i'm doing wrong here. I want "Favorite Things" to center
+.left p {
+
+	text-align: center;
+}
+
+a:visited { 
+	text-decoration: none; color:white;
+ }
